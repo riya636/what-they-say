@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* Default page background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+  }
+
+  .content-container {
+    background-color: #fddde6; /* Light pink background */
+    padding: 20px;
+    border-radius: 10px; /* Optional rounded corners */
+    text-align: center;
+    width: 100%; /* Adjust as needed */
+    max-width: 10000px; /* Maximum width */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+
+  .content-container img {
+    border-radius: 50%; /* Makes the image round */
+    width: 120px; /* Adjust size */
+    height: 120px; /* Ensures the image is a perfect circle */
+    object-fit: cover; /* Ensures the image scales properly */
+    margin-bottom: 20px; /* Space below the image */
+  }
+
+  .content-container h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000; /* Black text */
+  }
+
+  .content-container p {
+    margin: 10px 0 0;
+    font-size: 16px;
+    color: #333333; /* Slightly dark gray text */
+  }
+    
